@@ -9,14 +9,14 @@ Para esta app de notas necesitamos estos **casos**:
 
 Tenemos una serie de preguntas para poder arrancar:
 - ¿De qué tipo de dato deberían ser **una nota**?
->Necesitamos dos datos string, el titulo y el estado
+>Necesitamos dos datos string, el titulo y el estado. Estos van a estar dentro de la nota
 - ¿Cómo podemos guardar muchas notas?
 >Tenemos un tipo de dato que almacena muchos valores
 - Necesitamos tomar éstos datos de algún lado. ¿Existe alguna forma?
->Recordá que por ahora solo estamos en el backend, no tenemos interface mas que la terminal
+>Recordá que por ahora solo estamos en el backend, no tenemos interface, mas que la terminal
 - ¿Vamos a usar modulos nativos? o ¿Podríamos usar modulos externos?
->Tenemos una variable que nos sirve para procesar lo que hay en la terminal 
+>Tenemos una variable que nos sirve para **procesar** lo que hay en la terminal 
 - Necesitamos guardar estos datos en JSON ¿Cómo hacemos para manipularlos?
 >Tenemos un modulo nativo para leer archivos y para escribirlos
 - ¿Cómo contemplamos cada **caso**?
->Una estructura que evalua de la misma variable, diferentes casos por ejemplo
+>Existe estructura que evalua de la misma variable, diferentes casos, por ejemplo
